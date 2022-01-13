@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` test on rendering  input HomePage by sending dummyprop  1`] = `
+<div
+  className="wrapper"
+>
+  <h4
+    data-testid="login"
+  >
+    Login
+  </h4>
+  <div
+    className="form"
+  >
+    <input
+      autoComplete="off"
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value="varun"
+    />
+    <select
+      id="category"
+      name="category"
+      onChange={[Function]}
+    >
+      <option
+        value="male"
+      >
+        male
+      </option>
+      <option
+        value="female"
+      >
+        female
+      </option>
+      <option
+        value="others"
+      >
+        others
+      </option>
+    </select>
+    <select
+      id="languages"
+      name="languages"
+      onChange={[Function]}
+      value="english"
+    >
+      <option
+        value="english"
+      >
+        english
+      </option>
+      <option
+        value="kannada"
+      >
+        kannada
+      </option>
+      <option
+        value="hindi"
+      >
+        hindi
+      </option>
+    </select>
+    <button
+      className="btn"
+      onClick={[Function]}
+    >
+      start quiz
+    </button>
+  </div>
+</div>
+`;
